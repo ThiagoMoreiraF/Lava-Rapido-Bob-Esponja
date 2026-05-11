@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-color: #FFEA00;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+.img_header{
+    width: 200px;
+    height: 200px;
+    margin-left: 60px;
+    margin-top: 70px;
+}
+
+.list_header{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 100px;
+}
+
+.list_header a{
+    color: #004C6B;
+    text-decoration: none;
+    font-family: poppins, sans-serif;
+}
+
+.botao_zap{
+    background-color: #4ECA5C;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.botao_zap img{
+    width: 20px;
+    height: 20px;  
+}
+
+.botao_zap span{
+    color: #fff;
+    text-decoration: none;
+    font-size: 27px;
+}
+
+/* primeira seção */
+
+.section_principal{
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+    align-items: center;
+    gap: 20px;
+}
+.section_principal h1{
+    font-size: 30px;
+    color: #000000;
+}
+
+.section_principal h2{
+    font-size: 50px;
+    color: #004C6B;
+    
+}
+.section_principal p{
+    font-size: 20px;
+    color: #000000;
+    width: 500px;
+    text-align: center;
+}
+.section_principal a{
+    background-color: #4ECA5C;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.section_principal h3{
+    font-size: 50px;
+    color: #004C6B;
+}
+
+.caixa_dos_cards01{
+    display: flex;
+    gap: 70px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.caixa_dos_cards02{
+    display: flex;
+    gap: 70px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: #FFEA00;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+.card img{
+    width: 100px;
+    height: 100px;
+}
+
+.card h2{
+    font-size: 25px;
+    color: #004C6B;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.card p{
+    font-size: 15px;
+    color: #000000;
+    line-height: 1.5;
+}
+
+.section_segunda{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+    
