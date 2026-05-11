@@ -187,5 +187,44 @@ header{
     color: #fff;
 }
 
+.whatsapp{
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    z-index: 0;
+}
 
+.whatsapp img{
+    width: 80px;
+    height: 80px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.whatsapp img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.list_header a:hover{
+    background-color: #21B6F8;
+    transition: 0.3s;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.card a:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    
+}
+
+.section_principal a:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
     
