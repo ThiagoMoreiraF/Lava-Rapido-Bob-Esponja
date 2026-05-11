@@ -69,19 +69,23 @@ header{
 }
 .section_principal h1{
     font-size: 30px;
-    color: #000000;
-}
+    color: #d8d855;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);}
 
 .section_principal h2{
     font-size: 50px;
-    color: #004C6B;
+    color: #77b2c7;
+    text-shadow: #000000 2px 2px 4px;
     
 }
 .section_principal p{
-    font-size: 20px;
-    color: #000000;
+    font-size: 25px;
+    color: #ffa02d;
     width: 500px;
     text-align: center;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
 }
 .section_principal a{
     background-color: #4ECA5C;
@@ -94,7 +98,8 @@ header{
 
 .section_principal h3{
     font-size: 50px;
-    color: #004C6B;
+    color: #0c77a2;
+    text-shadow: 2px 2px 4px rgba(107, 98, 98, 0.5);
 }
 
 .caixa_dos_cards01{
@@ -227,4 +232,24 @@ html{
     transform: scale(1.05);
     transition: 0.3s;
 }
-    
+
+/*
+
+usar o codigo de video quando achar um melhor
+
+video{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    z-index: -1;
+}
+   */ 
+
+body{
+    background-image: url('./assets/img/carro.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
