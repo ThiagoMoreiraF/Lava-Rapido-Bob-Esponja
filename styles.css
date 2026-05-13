@@ -362,6 +362,10 @@ body{
 
 @media (max-width: 768px) {
 
+    *{
+        text-shadow: #000000 2px 2px 4px;
+    }
+
     header{
         justify-content: center;
         height: 90px;
@@ -391,17 +395,21 @@ body{
     .section_principal h1{
         font-size: 22px;
         text-align: center;
+        
     }
 
     .section_principal h2{
         font-size: 28px;
         text-align: center;
         line-height: 1.2;
+        color: #21B6F8;
     }
 
     .section_principal h3{
         font-size: 35px;
         text-align: center;
+        color: #21B6F8;
+        text-shadow: #000000 2px 2px 4px;
     }
 
     .section_principal p{
@@ -517,20 +525,24 @@ body{
         gap: 35px;
 
         padding: 40px 20px;
+
+        
     }
 
     .atendimento,
     .horarios,
     .servicos{
         margin: 0;
-
+        
         width: 100%;
         max-width: 320px;
     }
 
     .servicos ul{
         list-style-position: inside;
+        
     }
+     
 
     .rodape_direitos{
         height: auto;
@@ -549,5 +561,11 @@ body{
         width: 65px;
         height: 65px;
     }
+
+    footer h2,
+    footer p,
+    footer li{
+    text-shadow: none;
+}
 
 }
