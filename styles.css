@@ -249,6 +249,16 @@ html{
     transition: 0.3s;
 }
 
+.filtro{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
 /*
 
 usar o codigo de video quando achar um melhor
